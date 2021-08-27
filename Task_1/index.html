@@ -1,0 +1,606 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+  <title>Single Website Page</title>
+
+  <!-- Google Font Link -->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@1,600&display=swap" rel="stylesheet">
+
+  <!-- Bootstrap CSS Link -->
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet"
+    integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+
+  <!-- Flickity CSS Link-->
+  <link rel="stylesheet" href="https://unpkg.com/flickity@2/dist/flickity.min.css">
+
+  <!-- Owl Carousel CSS Link -->
+  <link rel="stylesheet" type="text/css"
+    href="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/assets/owl.carousel.min.css">
+
+  <!-- Font Awesome Link -->
+  <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css" rel="stylesheet">
+
+  <!--Main CSS Link -->
+  <link rel="stylesheet" href="style.css">
+
+</head>
+
+<body>
+  <!-- Navbar section Starts -->
+  <nav class="navbar navbar-expand-lg navbar-dark fixed-top">
+    <div class="container">
+      <a class="navbar-brand" href="#"><img src="Media/Google_Logo.png" alt=""></a>
+      <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent"
+        aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <div class="collapse navbar-collapse" id="navbarSupportedContent">
+        <ul class="navbar-nav ms-auto">
+          <li class="nav-item">
+            <a class="nav-link active" aria-current="page" href="#">Home</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link active" aria-current="page" href="#">Projects</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link active" aria-current="page" href="#">Pricing</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link active" aria-current="page" href="#">Team</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link active" aria-current="page" href="#">Blog</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link active" aria-current="page" href="#">Contact</a>
+          </li>
+        </ul>
+      </div>
+    </div>
+  </nav>
+  <!-- Navbar Section ends -->
+
+  <!-- Carousel Section Starts -->
+  <div id="carouselExampleCaptions" class="carousel slide" data-bs-ride="carousel">
+    <div class="carousel-indicators">
+      <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="0" class="active"
+        aria-current="true" aria-label="Slide 1"></button>
+      <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="1"
+        aria-label="Slide 2"></button>
+      <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="2"
+        aria-label="Slide 3"></button>
+    </div>
+    <div class="carousel-inner">
+      <div class="carousel-item active">
+        <img src="Media/BG_Image1.jpg" class="d-block w-100" alt="Background_Image_1">
+        <div class="carousel-caption d-md-block">
+          <h5>One page promising to fill all your needs</h5>
+          <p>This is Photoshop's version of Lorem ipsum. Proin gravida nibh veil velit auctor aliquet.</p>
+          <button type="button" class="btn btn-primary btn-lg">LEARN MORE</button>
+          <button type="button" class="btn btn-secondary btn-lg">LEARN MORE</button>
+        </div>
+      </div>
+      <div class="carousel-item">
+        <img src="Media/BG_Image2.jpg" class="d-block w-100" alt="Background_Image_2">
+        <div class="carousel-caption d-md-block">
+          <h5>One page promising to fill all your needs</h5>
+          <p>This is Photoshop's version of Lorem ipsum. Proin gravida nibh veil velit auctor aliquet.</p>
+          <button type="button" class="btn btn-primary btn-lg">LEARN MORE</button>
+          <button type="button" class="btn btn-secondary btn-lg">LEARN MORE</button>
+        </div>
+      </div>
+      <div class="carousel-item">
+        <img src="Media/BG_Image3.jpg" class="d-block w-100" alt="Background_Image_3">
+        <div class="carousel-caption d-md-block">
+          <h5>One page promising to fill all your needs</h5>
+          <p>This is Photoshop's version of Lorem ipsum. Proin gravida nibh veil velit auctor aliquet.</p>
+          <button type="button" class="btn btn-primary btn-lg">LEARN MORE</button>
+          <button type="button" class="btn btn-secondary btn-lg">LEARN MORE</button>
+        </div>
+      </div>
+    </div>
+    <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide="prev">
+      <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+      <span class="visually-hidden">Previous</span>
+    </button>
+    <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide="next">
+      <span class="carousel-control-next-icon" aria-hidden="true"></span>
+      <span class="visually-hidden">Next</span>
+    </button>
+  </div>
+  <!-- Carousel Section Ends -->
+
+  <!-- Welcome Section Starts  -->
+  <div class="welcome">
+    <h1>Welcome to Zippy</h1>
+    <div class="card  mb-3 mt-5 ml-5 center" style="max-width: 100%">
+      <div class="row g-0">
+        <div class=" col-lg-3 col-md-4">
+          <img src="Media/Welcome.png" class="img-fluid rounded-start" alt="Welcome_Image">
+        </div>
+        <div class=" col-lg-6 col-md-8">
+          <div class="card-body">
+            <p class="card-text">This is Photoshop’s version  of Lorem Ipsum. Proin gravida nibh vel velit auctor aliquet. Aenean sollicitudin, lorem quis bibendum auctor, nisi elit consequat ipsum, nec sagittis sem nibh id elit. Duis sed odio sit amet nibh vulputate cursus a sit amet mauris. Morbi accumsan ipsum velit. Nam nec tellus a odio tincidunt.</p>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+  <!-- Welcome Section Ends-->
+
+  <!-- Content section start -->
+  <div class="detail">
+    <div class="card-group">
+      <div class="card">
+        <img src="Media/Card_HTML.png" class="card-img-top" alt="HTML_Image">
+        <div class="card-body">
+          <h5 class="card-title">HTML</h5>
+          <p class="card-text">CThe HyperText Markup Language, or HTML is the standard markup language for documents designed to be displayed in a web browser. It can be assisted by technologies such as Cascading Style Sheets and scripting languages such as JavaScript.  </p>
+          <button type="button" class="btn btn-primary btn-lg">LEARN MORE</button>
+        </div>
+      </div>
+      <div class="card">
+        <img src="Media/Card_CSS.png" class="card-img-top" alt="CSS_Image">
+        <div class="card-body">
+          <h5 class="card-title">CSS</h5>
+          <p class="card-text">Cascading Style Sheets is a style sheet language used for describing the presentation of a document written in a markup language such as HTML. CSS is a cornerstone technology of the World Wide Web, alongside HTML and JavaScript. </p>
+          <button type="button" class="btn btn-primary btn-lg">LEARN MORE</button>
+        </div>
+      </div>
+      <div class="card">
+        <img src="Media/Card_JS.png" class="card-img-top" alt="JS_Image">
+        <div class="card-body">
+          <h5 class="card-title">JavaScript</h5>
+          <p class="card-text">JavaScript, often abbreviated as JS, is a programming language that conforms to the ECMAScript specification. JavaScript is high-level, often just-in-time compiled, and multi-paradigm. It has curly-bracket syntax, dynamic typing, prototype-based object-orientation, and first-class functions.</p>
+          <button type="button" class="btn btn-primary btn-lg">LEARN MORE</button>
+        </div>
+      </div>
+    </div>
+    <hr>
+  </div>
+  <!-- Content section ends -->
+
+  <!-- Projects Section start -->
+  <div class="project">
+    <h1>Projects</h1>
+    <div class="row row-cols-1 row-cols-md-4 g-4">
+      <div class="col">
+        <div class="card" id="pro_1">
+          <img src="Media/Pro_1.jpg" class="card-img-top" alt="Pro_1_Image">
+          <div class="card-body">
+            <h5 class="card-title">Web Development</h5>
+            <p class="card-text">Web development is the work involved in developing a Web site for the Internet or an intranet. Web development can range from developing a simple single static page of plain text to complex web applications, electronic businesses, and social network services.</p>
+            <button type="button" class="btn btn-primary btn-lg">LAUNCH CASE STUDY</button>
+          </div>
+        </div>
+      </div>
+      <div class="col">
+        <div class="card" id="pro_2">
+          <img src="Media/Pro_2.jpg" class="card-img-top" alt="Pro_2_Image">
+          <div class="card-body">
+            <h5 class="card-title">Front End Development</h5>
+            <p class="card-text">Front-end web development is the development of the graphical user interface of a website, through the use of HTML, CSS, and JavaScript, so that users can view and interact with that website.</p>
+            <button type="button" class="btn btn-primary btn-lg">LAUNCH CASE STUDY</button>
+          </div>
+        </div>
+      </div>
+      <div class="col">
+        <div class="card" id="pro_3">
+          <img src="Media/Pro_3.jpg" class="card-img-top" alt="Pro_3_Image">
+          <div class="card-body">
+            <h5 class="card-title">Back End Development</h5>
+            <p class="card-text">Backend Development is also known as server-side development. It is everything that the users don't see and contains behind-the-scenes activities that occur when performing any action on a website. It focuses primarily on databases, backend logic, APIs, and Servers. Backend Development.</p>
+            <button type="button" class="btn btn-primary btn-lg">LAUNCH CASE STUDY</button>
+          </div>
+        </div>
+      </div>
+      <div class="col">
+        <div class="card" id="pro_4">
+          <img src="Media/Pro_4.jpg" class="card-img-top" alt="Pro_4_Image">
+          <div class="card-body">
+            <h5 class="card-title">Full Stack Web Development</h5>
+            <p class="card-text">Full stack development: It refers to the development of both front end(client side) and back end(server side) portions of web application. Full stack web Developers: Full stack web developers have the ability to design complete web application and websites.</p>
+            <button type="button" class="btn btn-primary btn-lg">LAUNCH CASE STUDY</button>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+  <!-- Projects section ends -->
+
+  <!-- price table section starts  -->
+  <div class="price-table">
+    <h1>Pricing Table</h1>
+    <div class="card-group">
+      <div class="card">
+        <div class="card-body">
+          <h3 class="card-title">Standard Plan</h3>
+          <p class="card-text">
+            <large class="text-muted">$20/Month</large>
+          </p>
+          <p class="card-text">For FrontEnd or BackEnd</p>
+          <p class="card-text">10 GB Storage on Google Clouds</p>
+          <p class="card-text">Access to Google Experts</p>
+          <p class="card-text">Ads Free</p>
+          <p class="card-text">Extra Members Benafits</p>
+          <button type="button" class="btn btn-warning">BUY</button>
+        </div>
+      </div>
+      <div class="card">
+        <div class="card-body">
+          <h3 class="card-title">Business Plan</h3>
+          <p class="card-text">
+            <large class="text-muted">$35/Month</large>
+          </p>
+          <p class="card-text">For Web Development</p>
+          <p class="card-text">50 GB Storage on Google Clouds</p>
+          <p class="card-text">Access to Google Experts & Course Experts</p>
+          <p class="card-text">Including access to pervious plans</p>
+          <p class="card-text">Private Communication Benafits via Google Meet/Zoom</p>
+          <button type="button" class="btn btn-warning">BUY</button>
+        </div>
+      </div>
+      <div class="card">
+        <div class="card-body">
+          <h3 class="card-title">Premium Plan</h3>
+          <p class="card-text">
+            <large class="text-muted">$50/Month</large>
+          </p>
+          <p class="card-text">For Full Stack Web Development</p>
+          <p class="card-text">100 GB Storage on Google Clouds</p>
+          <p class="card-text">Including access to pervious plans</p>
+          <p class="card-text">24 X 7 avaliable for help and support</p>
+          <button type="button" class="btn btn-warning">BUY</button>
+        </div>
+      </div>
+    </div>
+  </div>
+  <!-- price table section ends -->
+
+  <!-- Video Section start -->
+  <div class="video-slide">
+    <h1>Video Projects</h1>
+    <div class="owl-carousel">
+      <div class="item-video" data-merge="2">
+        <a class="owl-video" href="https://www.youtube.com/watch?v=PkZNo7MFNFg&list=PLWKjhJtqVAbleDe3_ZA8h3AO2rXar-q2V&index=2&ab_channel=freeCodeCamp.org"></a>
+      </div>
+      <div class="item-video" data-merge="2">
+        <a class="owl-video" href="https://www.youtube.com/watch?v=m_HJ3juuFvo&list=PLWKjhJtqVAbleDe3_ZA8h3AO2rXar-q2V&index=5&ab_channel=freeCodeCamp.org"></a>
+      </div>
+      <div class="item-video" data-merge="2">
+        <a class="owl-video" href="https://www.youtube.com/watch?v=8o25pRbXdFw&list=PLWKjhJtqVAbleDe3_ZA8h3AO2rXar-q2V&index=14&ab_channel=freeCodeCamp.org"></a>
+      </div>
+      <div class="item-video" data-merge="2">
+        <a class="owl-video" href="https://www.youtube.com/watch?v=jS4aFq5-91M&list=PLWKjhJtqVAbleDe3_ZA8h3AO2rXar-q2V&index=28&ab_channel=freeCodeCamp.org"></a>
+      </div>
+      <div class="item-video" data-merge="2">
+        <a class="owl-video" href="https://www.youtube.com/watch?v=jaVNP3nIAv0&list=PLWKjhJtqVAbleDe3_ZA8h3AO2rXar-q2V&index=2&ab_channel=freeCodeCamp.org"></a>
+      </div>
+    </div>
+  </div>
+  <!-- Video Carousel Section end -->
+
+  <!-- Team Section Start -->
+  <div class="team">
+    <h1>Expert Team</h1>
+    <div class="row row-cols-1 row-cols-md-3 g-4">
+      <div class="col">
+        <div class="card">
+          <img src="Media/Team_1.png" class="card-img-top" alt="...">
+          <div class="card-body">
+            <h5 class="card-title">Koushik Dutta</h5>
+            <p class="card-text"><small class="text-muted">CEO & Founder</small></p>
+            <div class="team-content">
+              <ul class="social">
+                <li> <a href="#"><i class="fab fa-facebook-f"></i></a></li>
+                <li><a href="#"><i class="fab fa-twitter"></i></a></li>
+                <li><a href="#"><i class="fab fa-linkedin-in"></i></a></li>
+              </ul>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="col">
+        <div class="card">
+          <img src="Media/Team_2.png" class="card-img-top" alt="...">
+          <div class="card-body">
+            <h5 class="card-title">Abhijit Mondal</h5>
+            <p class="card-text"><small class="text-muted">BackEnd Web Development Expert</small></p>
+            <div class="team-content">
+              <ul class="social">
+                <li> <a href="#"><i class="fab fa-facebook-f"></i></a></li>
+                <li><a href="#"><i class="fab fa-twitter"></i></a></li>
+                <li><a href="#"><i class="fab fa-linkedin-in"></i></a></li>
+              </ul>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="col">
+        <div class="card">
+          <img src="Media/Team_3.png" class="card-img-top" alt="...">
+          <div class="card-body">
+            <h5 class="card-title">Nirveek Naskar</h5>
+            <p class="card-text"><small class="text-muted">JavaScript Expert</small></p>
+            <div class="team-content">
+              <ul class="social">
+                <li> <a href="#"><i class="fab fa-facebook-f"></i></a></li>
+                <li><a href="#"><i class="fab fa-twitter"></i></a></li>
+                <li><a href="#"><i class="fab fa-linkedin-in"></i></a></li>
+              </ul>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="col">
+        <div class="card">
+          <img src="Media/Team_4.png" class="card-img-top" alt="...">
+          <div class="card-body">
+            <h5 class="card-title">Raima Sarkar</h5>
+            <p class="card-text"><small class="text-muted">Front End Web DevelopmentExpert</small></p>
+            <div class="team-content">
+              <ul class="social">
+                <li> <a href="#"><i class="fab fa-facebook-f"></i></a></li>
+                <li><a href="#"><i class="fab fa-twitter"></i></a></li>
+                <li><a href="#"><i class="fab fa-linkedin-in"></i></a></li>
+              </ul>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="col">
+        <div class="card">
+          <img src="Media/Team_5.png" class="card-img-top" alt="...">
+          <div class="card-body">
+            <h5 class="card-title">Saheli Mitra</h5>
+            <p class="card-text"><small class="text-muted">Programming Language Expert</small></p>
+            <div class="team-content">
+              <ul class="social">
+                <li> <a href="#"><i class="fab fa-facebook-f"></i></a></li>
+                <li><a href="#"><i class="fab fa-twitter"></i></a></li>
+                <li><a href="#"><i class="fab fa-linkedin-in"></i></a></li>
+              </ul>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="col">
+        <div class="card">
+          <img src="Media/Team_6.png" class="card-img-top" alt="...">
+          <div class="card-body">
+            <h5 class="card-title">Akash Moddak</h5>
+            <p class="card-text"><small class="text-muted">Full Stack Web Development Expert</small></p>
+            <div class="team-content">
+              <ul class="social">
+                <li> <a href="#"><i class="fab fa-facebook-f"></i></a></li>
+                <li><a href="#"><i class="fab fa-twitter"></i></a></li>
+                <li><a href="#"><i class="fab fa-linkedin-in"></i></a></li>
+              </ul>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+  <!-- Team Section Ends -->
+
+  <!-- Gallery Section Starts -->
+  <div class="gallery">
+    <h1>Life in Zippy</h1>
+    <div class="exp-img">
+      <!-- Expanded image -->
+      <img src="Media/gallery_1.jpg" id="expandedImg" alt="Gallery_Photo">
+    </div>
+    <div class="carousel" data-flickity='{ "contain": true }'>
+      <div class="carousel-cell"><img src="Media/gallery_1.jpg" alt="Gallery_Photo" class="sm-img" onclick="myFunction(this);"></div>
+      <div class="carousel-cell"><img src="Media/gallery_2.jpg" alt="Gallery_Photo" class="sm-img" onclick="myFunction(this);"> </div>
+      <div class="carousel-cell"><img src="Media/gallery_3.jpg" alt="Gallery_Photo" class="sm-img" onclick="myFunction(this);"></div>
+      <div class="carousel-cell"><img src="Media/gallery_4.jpg" alt="Gallery_Photo" class="sm-img" onclick="myFunction(this);"></div>
+      <div class="carousel-cell"><img src="Media/gallery_5.jpg" alt="Gallery_Photo" class="sm-img" onclick="myFunction(this);"></div>
+      <div class="carousel-cell"><img src="Media/gallery_6.jpg" alt="Gallery_Photo" class="sm-img" onclick="myFunction(this);"></div>
+      <div class="carousel-cell"><img src="Media/gallery_7.jpg" alt="Gallery_Photo" class="sm-img" onclick="myFunction(this);"></div>
+      <div class="carousel-cell"><img src="Media/gallery_8.jpg" alt="Gallery_Photo" class="sm-img" onclick="myFunction(this);"></div>
+      <div class="carousel-cell"><img src="Media/gallery_9.jpg" alt="Gallery_Photo" class="sm-img" onclick="myFunction(this);"></div>
+      <div class="carousel-cell"><img src="Media/gallery_10.jpg" alt="Gallery_Photo" class="sm-img" onclick="myFunction(this);"></div>
+      <div class="carousel-cell"><img src="Media/gallery_11.jpg" alt="Gallery_Photo" class="sm-img" onclick="myFunction(this);"></div>
+    </div>
+  </div>
+  <!-- Gallery Section Ends -->
+
+  <!-- Newsletter Section Start -->
+  <div class="newsletter">
+    <form action="">
+      <h1>Newsletter Signup</h1>
+      <div class="email-box">
+        <input class="tbox" type="email" name="" value="" placeholder="abc@example.com">
+        <button class="btn" type="button" name="button">SIGN UP</button>
+      </div>
+    </form>
+  </div>
+  <!-- Newsletter section ends -->
+
+  <!-- Blog Section Start -->
+  <div class="blog">
+    <h1>Blog</h1>
+    <div class="row row-cols-1 row-cols-md-3 g-4">
+      <div class="col">
+        <div class="card">
+          <img src="Media/blog_1.jpg" class="card-img-top" alt="Blog_Photo">
+          <div class="card-body">
+            <h5 class="card-title">Web Development for Beginners</h5>
+            <p class="card-text">Web development is the work involved in developing a Web site for the Internet or an intranet. Web development can range from developing a simple single static page of plain text to complex web applications, electronic businesses, and social network services.</p>
+            <small class="text-muted">Updated 1 hours ago</small>
+            <p></p>
+            <button type="button" class="btn btn-primary btn-lg">Learn More</button>
+          </div>
+        </div>
+      </div>
+      <div class="col">
+        <div class="card">
+          <img src="Media/blog_2.jpg" class="card-img-top" alt="Blog_Photo">
+          <div class="card-body">
+            <h5 class="card-title">Web Development Projects</h5>
+            <p class="card-text">Web development is the work involved in developing a Web site for the Internet or an intranet. Web development can range from developing a simple single static page of plain text to complex web applications, electronic businesses, and social network services.</p>
+            <small class="text-muted">Updated 10 hours ago.</small>
+            <p></p>
+            <button type="button" class="btn btn-primary btn-lg">Learn More</button>
+          </div>
+        </div>
+      </div>
+      <div class="col">
+        <div class="card">
+          <img src="Media/blog_3.jpg" class="card-img-top" alt="Blog_Photo">
+          <div class="card-body">
+            <h5 class="card-title">GITHUB</h5>
+            <p class="card-text">GitHub, Inc. is a provider of Internet hosting for software development and version control using Git. It offers the distributed version control and source code management functionality of Git, plus its own features.                                           </p>
+            <small class="text-muted">Updated 6 days ago</small>
+            <p></p>
+            <button type="button" class="btn btn-primary btn-lg">Learn More</button>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+  <!-- Blog Section Ends -->
+
+  <!-- Contact Us Section Start -->
+  <div class="contactus">
+    <div class="contactfrm pt-5 pb-3">
+      <div class="row row-cols-1 row-cols-md-3 g-4">
+        <class class="col-lg-6 col-md-6 col-12 ">
+          <div class="mapouter">
+            <div class="gmap_canvas">
+              <iframe class="gmap_iframe" width="100%" frameborder="0" scrolling="no" marginheight="0" marginwidth="0" src="https://maps.google.com/maps?width=1200&amp;height=600&amp;hl=en&amp;q=Parkstreet&amp;t=&amp;z=14&amp;ie=UTF8&amp;iwloc=B&amp;output=embed"></iframe>
+              <a href="https://www.fnfgo.com/">FNF Go</a>
+            </div>
+            <style>.mapouter{position:relative;text-align:right;width:100%;height:600px;}.gmap_canvas {overflow:hidden;background:none!important;width:100%;height:600px;}.gmap_iframe {height:600px!important;}</style>
+          </div>
+        </class>
+        <div class="col-lg-6 col-md-6 col-12">
+          <h1 class="title text-center pt-2">Contact</h1>
+          <div class="w-50 m-auto">
+            <form action="userinfo.php" method="post">
+              <div class="form-group pt-2">
+                <label>NAME</label>
+                <input type="text" name="user" autocomplete="off" class="form-control " placeholder="Enter your name">
+              </div>
+              <div class="form-group pt-2">
+                <label>EMAIL ADDRESS</label>
+                <input type="email" name="email" autocomplete="off" class="form-control "
+                  placeholder="Enter your email">
+              </div>
+              <div class="form-group pt-2">
+                <label>SUBJECT</label>
+                <input type="text" name="mobile" autocomplete="off" class="form-control "
+                  placeholder="Enter your phone number">
+              </div>
+              <div class="form-group pt-2">
+                <label>MASSAGE</label>
+                <textarea class="form-control " name="comments" placeholder="Enter your message"></textarea><br>
+                <button type="sumbit" class="btn btn-success"><i class="fa fa-paper-plane"></i>&nbspSumbit</button>
+              </div>
+            </form>
+          </div>
+
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <!-- contact us Section ends -->
+
+  <!-- Footer Section Start -->
+  <div class="footer">
+    <div class="card-group">
+      <div class="card">
+        <div class="card-body">
+          <h6 class="card-title">OFFICE ADDRESS</h6>
+          <p class="card-text">
+          </p>
+          <p class="card-text">1-Park Street</p>
+          <p class="card-text">Kolkata, West Bengal</p>
+          <p class="card-text">INDIA</p>
+        </div>
+      </div>
+      <div class="card">
+        <div class="card-body">
+          <h6 class="card-title">FOLLOW US</h6>
+          <p class="card-text">
+
+          </p>
+          <p>
+            <a href="#"><i class="fab fa-facebook-f"></i></a>
+            <a href="#"><i class="fab fa-twitter"></i></a>
+            <a href="#"><i class="fab fa-linkedin-in"></i></a>
+          </p>
+          <p class="card-text">
+            <a href="#"><i class="fab fa-instagram"></i></a>
+            <a href="#"><i class="fab fa-google-plus-g"></i></a>
+            <a href="#"><i class="fab fa-behance"></i></a>
+          </p>
+        </div>
+      </div>
+      <div class="card">
+        <div class="card-body">
+          <h6 class="card-title">CONTACT US</h6>
+          <p class="card-text">
+
+          </p>
+          <p class="card-text">+91 7980064223</p>
+          <p class="card-text">Zippy@skype</p>
+          <p class="card-text">info@zippy.com</p>
+
+        </div>
+      </div>
+    </div>
+    <p class="Copyright">© 2021 Zippy. All Rights Reserved.</p>
+  </div>
+  <!-- Footer Section End -->
+
+  <!-- bootstrap javascript -->
+  <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.9.2/dist/umd/popper.min.js"
+    integrity="sha384-IQsoLXl5PILFhosVNubq5LC7Qb9DXgDA9i+tQ8Zj3iwWAwPtgFTxbJ8NT4GN1R8p"
+    crossorigin="anonymous"></script>
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.min.js"
+    integrity="sha384-cVKIPhGWiC2Al4u+LWgxfKTRIcfu0JTxR+EQDz/bgldoEyl4H0zUF0QKbrJ0EcQF"
+    crossorigin="anonymous"></script>
+
+
+  <!-- JQuery JavaScript Library -->
+  <script src="https://code.jquery.com/jquery-3.5.1.min.js"
+    integrity="sha256-9/aliU8dGd2tb6OSsuzixeV4y/faTqgFtohetphbbj0=" crossorigin="anonymous"></script>
+
+  <!-- OwlCarousel Javascript Library -->
+  <script type="text/javascript"
+    src="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/owl.carousel.min.js"></script>
+
+  <!-- flickity Javascript Library -->
+  <script src="https://unpkg.com/flickity@2/dist/flickity.pkgd.min.js"></script>
+
+  <script type="text/javascript">
+    $(".owl-carousel").owlCarousel({
+      merge: true,
+      loop: true,
+      margin: 10,
+      video: true,
+      lazyLoad: true,
+      center: true
+    });
+  </script>
+
+  <script>
+    function myFunction(imgs) {
+      var expandImg = document.getElementById("expandedImg");
+      expandImg.src = imgs.src;
+      expandImg.parentElement.style.display = "block";
+    }
+  </script>
+</body>
+</html>
